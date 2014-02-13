@@ -1,0 +1,40 @@
+{
+  "name": "jade-reactify",
+  "version": "0.1.0",
+  "description": "jade-reactify =============",
+  "main": "lib/jade-reactify.js",
+  "scripts": {
+    "test": "mocha -r should test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/oroce/jade-reactify.git"
+  },
+  "keywords": [
+    "jade",
+    "react",
+    "browserify"
+  ],
+  "author": "oroce <robert@oroszi.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oroce/jade-reactify/issues"
+  },
+  "devDependencies": {
+    "should": "~3.1.2",
+    "mocha": "~1.17.1",
+    "browserify": "~3.28.2",
+    "concat-stream": "~1.4.1",
+    "jsdom": "~0.10.1",
+    "envify": "~0.2.0",
+    "react": "~0.8.0"
+  },
+  "peerDependencies": {
+    "jade-react": "~0.1.0",
+    "browserify": ">= 2.4.0 < 4"
+  },
+  "dependencies": {
+    "jade-react": "~0.1.0",
+    "through": "~2.3.4"
+  }
+}
